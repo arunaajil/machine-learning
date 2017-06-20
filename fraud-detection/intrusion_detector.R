@@ -7,7 +7,7 @@ setwd("C:/RLab/Hacathon/Data&Description")
 intrusion_train = read.table(file = "train_final.csv",header=T,sep=',')
 summary(intrusion_train)
 
-# Reading from test data.
+# Reading from test data. Add
 intrusion_test = read.table(file = "test_final.csv",header=T,sep=',')
 summary(intrusion_test)
 dim(intrusion_test)
